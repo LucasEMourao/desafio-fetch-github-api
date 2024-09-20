@@ -53,42 +53,7 @@ const screen = {
                                                     <ul>${eventsItens}</ul>
                                                 </div>
                                             </div>`
-        }
-
-        // this.userProfile.innerHTML += 
-        // `<div class ="events-section">
-        //      <h3>Eventos</h3>
-        // </div>`
-        // user.events.forEach(event =>{
-        //     const eventName = event.repo.name
-        //     if(event.payload){
-        //         if(event.payload.commits){
-        //             event.payload.commits.forEach(message =>{
-        //                 const commitMessage = message.message
-
-        //                 this.userProfile.innerHTML +=
-        //                 `<span class ="eventsActiveList">
-        //                     <ul>
-        //                         <li>
-        //                             <p><strong>${eventName}</strong> - ${commitMessage}</p>
-        //                         </li>
-        //                     </ul>
-        //                 </span>`
-        //             })
-        //         }
-        //     }
-        // })
-        // let eventsItens = ''
-        // user.events.forEach(event => eventsItens += `<li><p>${event.repo.name} - ${event.payload.description}</p></li>`)
-        // console.log(eventsItens);
-
-        // if(user.events.length > 0){
-        //     this.userProfile.innerHTML += `<div class ="events section">
-        //                                                     <h3>Eventos</h3>
-        //                                                     <ul>${eventsItens}</ul>
-        //                                     </div>`
-        // }
-        
+        }        
     },
     renderNotFound(){
         this.userProfile.innerHTML = "<h3> Usúario não encontrado </h3>"
